@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chatbox</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="chatbox">
+    <div class="chat-header"><img src="img/panda.gif" alt="" width="20%">HiChat <img src="img/panda.gif" alt="" width="20%"></div>
+    <div class="chat-container">
+      <select id="user-type">
+        <option value="sender">Sender</option>
+        <option value="receiver">Receiver</option>
+      </select>
+      <div class="chat-window" id="chat-window">
+      </div>
+      <div class="chat-input">
+        <input type="text" id="message-box" placeholder="Type a message...">
+        <button id="send-button">Send</button>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
